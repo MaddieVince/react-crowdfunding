@@ -1,7 +1,8 @@
 import React from 'react';
+import logo from '../images/ch-logo-crop.gif';
 
 function Header() {
-    return <h1>This is the logo</h1>;
+    return <img src={logo} />;
 }
 
 export default Header;

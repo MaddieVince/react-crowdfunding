@@ -10,8 +10,12 @@ function App() {
   return (
     <Router>
       <div id="header">
-        <Header />
-        <Nav />
+        <div id="header-text">
+          <Header /> 
+        </div>
+        <div id="header-nav">
+          <Nav />
+        </div>
       </div>
       
       <div>
